@@ -1,0 +1,250 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    text-transform: capitalize !important;
+}
+
+/* header start here */
+
+.align{
+    width: 70% !important;
+    margin: 0 auto;
+}
+
+.relative{
+    position: relative;
+}
+
+.img-fluid{
+    width: 100% !important;
+}
+
+.header-nav{
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+
+.navbar-brand img{
+    width: 75% !important;
+}
+
+.navbar-collapse{
+    position: absolute;
+    top: 15%;
+    right: 0%;
+}
+
+.nav-item{
+    color: white !important;
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+
+.nav-item:last-child{
+    margin-right: 0;
+}
+
+.nav-item:hover{
+    text-decoration: underline !important;
+}
+
+.header-title-heading{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    width: 30%;
+    transform: translateY(-50%);
+}
+
+.header-title-heading h1{
+    font-weight: 100;
+}
+
+.header-title-heading h1 b{
+    font-weight: 700 !important;
+}
+
+
+.header-card{
+    position: absolute;
+    top: 85%;
+    left: 15%;
+    z-index: 1;
+}
+
+main{
+    background-color: #f5f5f5;
+}
+
+.card{
+    text-align: center;
+    border: none;
+    box-shadow: 1px 2px 5px rgb(163, 159, 159);
+    padding: 48px 0 12px !important;
+    border-radius: 0 !important;
+    max-width: 30% !important;
+    margin: 0 auto;
+}
+
+.card img{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.card-title{
+    font-size: 26px !important;
+    color: #666666;
+}
+
+.card-text{
+    color: #878787;
+    letter-spacing: 1px;
+    line-height: 2;
+    font-size: 11px;
+    margin-top: 32px;
+}
+
+.btn{
+    margin-top: 32px;
+    color: #999999 !important;
+    border: 1px solid #999999 !important;
+    background-color: transparent !important;
+    border-radius: 30px !important;
+    padding: 9px 30px !important;
+    box-shadow: 2px 2px 7px rgb(163, 159, 159);
+}
+
+.btn:hover{
+    background-color: #0169b4 !important;
+    color: white !important;
+}
+
+/* header ends here */
+
+/* main starts here */
+
+
+.flex-display{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60%;
+}
+
+.main-title{
+    width: 45%;
+}
+
+.main-title img{
+    width: 100%;
+}
+
+.solution{
+    padding: 96px 0;
+}
+
+.main-heading{
+    color: #0169b4;
+}
+
+.projects{
+    display: flex;
+}
+
+.round{
+    width: 25%;
+}
+
+.main-text{
+    padding: 25px 35px 0 0 !important;
+}
+
+.people-says-section{
+    background-color: white;
+}
+
+.people-here-title{
+    margin: auto !important;
+}
+
+.people-here-title p, .people-here-title h6{
+    margin-left: 30px;
+}
+
+.news-heading{
+    margin-bottom: 48px;
+}
+
+.events h2{
+    color: #878787;
+}
+
+.events h5{
+    color: #333;
+    margin: auto 0 auto 30px;    
+}
+
+/* main ends here */
+
+/* footer start here */
+
+footer{
+    background-image: url(../images/footer-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.footer-icons a {
+    color: #efeff5;
+    text-decoration: none;
+    border: 1px solid #efeff5;
+    border-radius: 100%;
+    padding: 15px 23px;
+    font-size: 22px;
+}
+
+.footer-icons p{
+    color: #efeff5;
+    margin-top: 30px;
+}
+
+.social-icon{
+    justify-content: center !important  ;
+}
+
+.social-icon a{
+    border: 0 !important;
+    border-radius: 0 !important;
+    font-size: 32px !important;
+}
+
+.footer-icons a:hover{
+    color: #efeff5;
+}
+
+.footer-button{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.footer-button button{
+    background-color: white;
+    border-radius: 100%;
+    border: 0;
+    color: #a72b8f;
+    font-size: 25px;
+    padding: 10px 18px 13px;
+}
