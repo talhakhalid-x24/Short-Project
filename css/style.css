@@ -137,6 +137,7 @@ main{
 
 .main-title{
     width: 45%;
+    margin: auto;
 }
 
 .main-title img{
@@ -212,6 +213,18 @@ footer{
     border-radius: 100%;
     padding: 15px 23px;
     font-size: 22px;
+}
+
+.footer-icons .ico:nth-child(2) a{
+    padding: 15px 20px;
+}
+
+.footer-icons .ico:nth-child(3) a{
+    padding: 15px 25px;
+}
+
+.footer-icons .ico:last-child a{
+    padding : 15px 22px;
 }
 
 .footer-icons p{
